@@ -36,5 +36,8 @@
     "webpack-dev-server": "^4.15.1",
     "webpack-merge": "^5.10.0"
   },
-  "prettier": "@perugi/prettier-config"
+  "prettier": "@perugi/prettier-config",
+  "dependencies": {
+    "@perugi/web-utilities": "^1.0.0"
+  }
 }

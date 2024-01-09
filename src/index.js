@@ -1,5 +1,6 @@
 import './reset.css';
 import './styles.css';
-import renderGhLogo from './renderGhLogo';
 
-renderGhLogo();
+import Utilities from '@perugi/web-utilities';
+
+Utilities.renderGHLogo();
