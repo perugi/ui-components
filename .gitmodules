@@ -1,3 +1,0 @@
-[submodule "eslint-prettier-config"]
-	path = eslint-prettier-config
-	url = https://github.com/perugi/eslint-prettier-config

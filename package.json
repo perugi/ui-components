@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/perugi/web-template#readme",
   "devDependencies": {
+    "@perugi/eslint-config": "^1.0.3",
+    "@perugi/prettier-config": "^1.0.2",
     "css-loader": "^6.8.1",
     "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -33,5 +35,6 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1",
     "webpack-merge": "^5.10.0"
-  }
+  },
+  "prettier": "@perugi/prettier-config"
 }
