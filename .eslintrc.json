@@ -10,7 +10,11 @@
         "sourceType": "module"
     },
     "rules": {
-        "no-console": "off"
+        "no-console": "off",
+        "import/no-extraneous-dependencies": [
+            "error",
+            {"devDependencies": true}
+        ]
     },
     // Make sure this is last, so it gets the chance to override the other configs.
     "extends": [
