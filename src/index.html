@@ -1,42 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UI Components</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <header>
-        <h1>UI Components Testing</h1>
+      <h1>UI Components Testing</h1>
     </header>
     <main>
-        <div id="dropdown-test">
-            <div class="dropdown">
-                <button class="dropdown-toggle">Dropdown</button>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">This is a long link</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropdown-toggle">Dropdown 2</button>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">This is a long link</a>
-                </div>
-            </div>
+      <div id="dropdown-test">
+        <h2>Dropdowns</h2>
+        <div>
+          <label for="dropdown-orientation">Horizontal/Vertical</label>
+          <input type="checkbox" id="dropdown-orientation" />
         </div>
+
+        <div>
+          <label for="dropdown-activation">Click/Hover</label>
+          <input type="checkbox" id="dropdown-activation" />
+        </div>
+
+        <div id="dropdown-container">
+          <div class="dropdown">
+            <button class="dropdown-toggle">Dropdown</button>
+            <div class="dropdown-content">
+              <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">This is a long link</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropdown-toggle">Dropdown 2</button>
+            <div class="dropdown-content">
+              <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">This is a long link</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="mobile-menu-test">
+        <h2>Mobile Menu</h2>
+
+        <nav class="mobile-menu">
+          <div class="branding">
+            <a href="#">Logo</a>
+          </div>
+          <ul class="menu-items">
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+            <li><a href="#">Item 4</a></li>
+            <li><a href="#">Item 5</a></li>
+            <li><a href="#">Item 6</a></li>
+            <li><a href="#">Item 7</a></li>
+            <li><a href="#">Item 8</a></li>
+          </ul>
+          <div class="dropdown">
+            <button class="dropdown-toggle">...</button>
+            <div class="dropdown-content">
+              <ul>
+                <li class="dropdown-item"><a href="#">Dropdown 1</a></li>
+                <li class="dropdown-item"><a href="#">Dropdown 2</a></li>
+                <li class="dropdown-item"><a href="#">Dropdown 3</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </main>
     <footer>
-        <div class="author">
-            <a id="gh-link" href="https://github.com/perugi">
-                <div>Made by</div>
-                <img id="gh-logo">
-                <div>Dominik Perusko</div>
-            </a>
-        </div>
+      <div class="author">
+        <a id="gh-link" href="https://github.com/perugi">
+          <div>Made by</div>
+          <img id="gh-logo" />
+          <div>Dominik Perusko</div>
+        </a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
